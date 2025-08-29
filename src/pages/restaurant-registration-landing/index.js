@@ -1,6 +1,6 @@
 import CssBaseline from '@mui/material/CssBaseline'
 import Meta from '@/components/Meta'
-import RestaurantRegistrationLanding from '@/components/restaurant-resgistration-landing'
+// import RestaurantRegistrationLanding from '@/components/restaurant-resgistration-landing'
 import { CustomHeader } from '@/api/Headers'
 import { checkMaintenanceMode } from '@/utils/customFunctions'
 
@@ -10,7 +10,7 @@ const Index = ({ configData ,registrationLandingPageData}) => {
         <>
             <CssBaseline />
             <Meta title={`Store registration Landing - ${configData?.business_name}`} />
-            <RestaurantRegistrationLanding configData={configData} data={registrationLandingPageData} />
+            {/* <RestaurantRegistrationLanding configData={configData} data={registrationLandingPageData} /> */}
         </>
     )
 }
